@@ -128,5 +128,8 @@ sudo jbrowse add-track tf1_sorted_renamed.bed.gz --load copy --out /mnt/JBrowse/
 sudo jbrowse add-track tf2_sorted_renamed.bed.gz --load copy --out /mnt/JBrowse/
 sudo jbrowse add-track tf3_sorted_renamed.bed.gz --load copy --out /mnt/JBrowse/
 sudo jbrowse add-track atac_sorted_renamed.bed.gz --load copy --out /mnt/JBrowse/
+
+sudo nginx -s reload 
 ```
 session link - http://158.160.13.136/jbrowse/?session=share-2PsOr6LQT1&password=OgA8e
+
